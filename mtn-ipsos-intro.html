@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN Eswatini - IPSOS Intro Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Logo bar */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #ffcb00;
+        }
+
+        img.logo {
+            max-width: 160px;
+            max-height: 90px;
+            object-fit: contain;
+        }
+
+        /* Header */
+        h1 {
+            color: #1a1a1a;
+            font-size: 1.4em;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #005eb8;
+            font-size: 1em;
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        /* Section heading */
+        .section-heading {
+            background: #ffcb00;
+            color: #1a1a1a;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin: 25px 0 15px 0;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Script line - standard */
+        .script-line {
+            background: #f0f7ff;
+            border-left: 4px solid #005eb8;
+            padding: 12px 16px;
+            margin: 10px 0;
+            border-radius: 0 5px 5px 0;
+            font-size: 1em;
+        }
+
+        /* Siswati script line */
+        .script-line.siswati {
+            background: #fffbe6;
+            border-left: 4px solid #ffcb00;
+            font-style: italic;
+        }
+
+        /* Important notice */
+        .script-line.notice {
+            background: #fff5f5;
+            border-left: 4px solid #e74c3c;
+            font-weight: bold;
+        }
+
+        /* Instruction to agent */
+        .agent-note {
+            background: #f0fff4;
+            border-left: 4px solid #27ae60;
+            padding: 10px 16px;
+            margin: 10px 0;
+            border-radius: 0 5px 5px 0;
+            font-size: 0.9em;
+            color: #1a6b35;
+            font-style: italic;
+        }
+
+        /* Response box */
+        .response {
+            margin-left: 20px;
+            padding: 10px 15px;
+            background: #fafafa;
+            border-left: 3px solid #999;
+            border-radius: 0 5px 5px 0;
+            margin-top: 5px;
+        }
+
+        /* Colour legend */
+        .legend {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 0 0 20px 0;
+            font-size: 0.82em;
+            padding: 10px 15px;
+            background: #f9f9f9;
+            border-radius: 6px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        .legend-box {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 13px;
+            color: #888;
+            text-align: center;
+            border-top: 2px solid #ffcb00;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Logos -->
+    <div class="logo-container">
+        <img src="ipsos-logo.png" alt="IPSOS Logo" class="logo">
+        <img src="mtn-logo.png" alt="MTN Eswatini Logo" class="logo">
+    </div>
+
+    <h1>MTN Eswatini — Survey Introduction Script</h1>
+    <h2>IPSOS Market Research | Voice, Data &amp; Financial Services Satisfaction Survey</h2>
+
+    <!-- Legend -->
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-box" style="background:#f0f7ff; border:2px solid #005eb8;"></div>
+            <span>Agent script line (English)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-box" style="background:#fffbe6; border:2px solid #ffcb00;"></div>
+            <span>Agent script line (Siswati)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-box" style="background:#f0fff4; border:2px solid #27ae60;"></div>
+            <span>Agent instruction</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-box" style="background:#fff5f5; border:2px solid #e74c3c;"></div>
+            <span>Important notice</span>
+        </div>
+    </div>
+
+    <!-- INTRODUCTION -->
+    <div class="section-heading">Introduction — Siswati</div>
+
+    <div class="agent-note">Read the following introduction in Siswati to the respondent:</div>
+
+    <div class="script-line siswati">
+        Sawubona, ligama lami ngingu <strong>.... [Ligama Lakho]</strong>, futsi ngishayela lucingo ngivela e-<strong>Ipsos</strong>, inkampani letimele yeLucwaningo lweMakethe.
+    </div>
+
+    <div class="script-line siswati">
+        Senta luhlolo egameni lenkhampani yetekuchumana ngekushaya lucingo mayelana nekwenetiseka kwakho ngemasevisi akho anyalo e <strong>voice, data</strong> ne <strong>masevisi etetimali</strong>.
+    </div>
+
+    <div class="script-line siswati notice">
+        Tonkhe timphendvulo titawusetjentiselwa lubalo kuphela, futsi asizami kukutsengisela lutfo.
+    </div>
+
+    <div class="script-line siswati">
+        Tonkhe tinkhulumomphendvulwano titawu <strong>recordwa</strong> ngenhloso yekucecesha kanye nekulawula lizinga leliphakeme, futsi ngeke titsatse sikhatsi sakho lesingetulu kwemaminutes lelishumi nesihlanu <strong>(15)</strong>.
+    </div>
+
+    <div class="script-line siswati">
+        <strong>Ngingachubeka yini?</strong>
+    </div>
+
+    <!-- RESPONSE HANDLING -->
+    <div class="section-heading">Response Handling</div>
+
+    <div class="response">
+        <p><strong>If YES / Uma atsi Yebo:</strong></p>
+        <div class="agent-note">Proceed to the survey on the client CRM system.</div>
+    </div>
+
+    <div class="response">
+        <p><strong>If NO / Uma atsi Cha:</strong></p>
+        <div class="agent-note">Thank the respondent politely and close the call. Log the outcome in the CRM as "Declined".</div>
+    </div>
+
+    <div class="response">
+        <p><strong>If respondent asks who gave their number:</strong></p>
+        <div class="script-line siswati" style="margin:5px 0;">
+            Linombolo lakho latsatfwa kusuka kurekodi yabakhathaleti be-MTN Eswatini njengenkhomba yekutsi usebentisa emasevisi abo.
+        </div>
+        <div class="agent-note">Translation: Your number was drawn from MTN Eswatini's customer records as an indication that you use their services.</div>
+    </div>
+
+    <!-- ENGLISH TRANSLATION -->
+    <div class="section-heading">English Translation (Reference)</div>
+
+    <div class="script-line">
+        Hello, my name is <strong>[Your Name]</strong>, and I am calling from <strong>Ipsos</strong>, an independent Market Research company.
+    </div>
+
+    <div class="script-line">
+        We are conducting a survey on behalf of a telecommunications company regarding your satisfaction with your current <strong>voice, data and financial services</strong>.
+    </div>
+
+    <div class="script-line notice">
+        All responses will be used for statistical purposes only, and we are not trying to sell you anything.
+    </div>
+
+    <div class="script-line">
+        All conversations will be <strong>recorded</strong> for training and quality control purposes, and it will not take more than <strong>fifteen (15) minutes</strong> of your time.
+    </div>
+
+    <div class="script-line">
+        <strong>May I proceed?</strong>
+    </div>
+
+    <footer>
+        <p>IPSOS Market Research | MTN Eswatini | Confidential — For Agent Use Only</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
